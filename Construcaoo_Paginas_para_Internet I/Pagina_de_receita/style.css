@@ -1,0 +1,76 @@
+html,body{
+    margin: 0;
+    padding: 0;}
+.header{
+    text-align: center;
+    background-color: orange;
+}
+.logo{
+    height: 50px;
+}
+#img2{
+    background: url('./images/hero_bolo.jpg');
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+#img1{
+    width: 250px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+    
+}
+.content{
+    max-width: 990px;
+}
+#title{
+    color: orange;
+}
+
+.ingredients{
+    padding: 30px;
+    width:70% ;
+    height: 100%;
+    border-radius: 10px;
+}
+.ingredients:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: url(./images/cursor_ingredientes.png),auto;
+}
+.ingredients_title{
+    color: orange;
+}
+.ingredients_list{
+    font-weight: 600;   
+}
+li{
+    padding: 5px;
+}
+.button{
+    margin-left: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 18px;
+    width: 180px;
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+p{
+    font-weight: 600;   
+    padding: 5px;
+}
+.footer{
+    text-align: center;
+    background-color: orange;
+    padding: 15px;
+    margin-top: 15px;
+}
+

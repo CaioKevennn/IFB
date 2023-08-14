@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans',sans-serif ;
+}
+#top-bar{
+    text-align: center;
+    background-color:#333;
+    border-bottom: 5px solid orange;
+    color: white;
+    padding: 8px;
+    font-weight: bolder;
+    
+}
+#container{
+    width: 80%;
+    margin:auto;
+}
+#title{
+    font-weight: bolder;
+}
+#sub-title{
+    font-size: 16px;
+    font-weight: 400;
+}
+#author{
+    font-size:14px;
+    display: block;
+    font-weight: bolder;
+}
+#date{
+    font-size:10.5px;
+}
+.social{
+    float: none;
+}
+.icon{
+    float: left;
+    padding-left: 55px;
+    
+}
+.icon_face{
+    list-style-image: url("./images/facebook.png");
+    width: 10px;
+
+}
+.icon_tt{
+    list-style-image: url('./images/twitter.png');
+}
+.icon_whats{
+    list-style-image: url('./images/whatsapp.png');
+}
+#clear{
+    clear: both;
+}
+.link{
+    text-decoration: none;
+    color: orange;
+    font-weight:700;
+}
+.img{
+    width:100% ;
+}
+.footer{
+    background-color:#333;
+    height: 40px;
+}
+p{
+    font-size: 20px;
+    line-height: 32px;
+}
