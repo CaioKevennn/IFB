@@ -113,26 +113,26 @@ h3{
     font-size:1em ;
     text-align: center;
 }
+
 .treinos{
     width: 100%;
-    height: 500px;
-    background-color: #fff;
-    overflow: auto;
-    padding: 16px;
-    box-sizing: border-box;
-    overflow: none;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    margin: 0px;
 }
-.container_treino{
-    text-align: justify;
-    width: 60%;
-}
-.container_img_treino{
-    width: 30%;
+.treinos_txt{
+    width: 49%;
     
 }
-.container_test{
-    display: flex;
-    justify-content: space-between;
+.treino_img{
+    width: 30%;
+    padding:0px 45px;
+    height:
+}
+.treinos_img{
+    width: 100%;
+    
 }
 .footer{
     background-color: black;
@@ -140,16 +140,3 @@ h3{
     padding: 0.5em;
     text-align: center;
 }
-.container_a{
-    width: 100%;
-    height: 450px;
-    background-color: red;
-    display: flexbox;   
-    justify-content: center; 
-}
-
-.tes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;}
