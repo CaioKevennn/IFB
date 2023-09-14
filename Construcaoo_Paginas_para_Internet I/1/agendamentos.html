@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+<body>
+    <header class="header">
+    </header>
+    <nav class="navbar">
+        <a href="./index.html#home" >HOME</a>
+        <a href="#beneficios" >BENEFÍCIOS</a>
+        <a href="#modal" >MODALIDADES </a>
+        <a href="#treinos" >TREINOS</a>
+        <a href="./agendamentos.html#agendar" >AGENDAMENTOS</a>
+    </nav>
+    <article class="container2">
+            <section class="form">
+                <h1 class="h1">Agendamento</h1>
+                <p>Agende uma aula experimental Grátis!
+                </p>
+                <form action="">
+                    <label for="name">
+                        Nome:
+                    </label>
+                    <input type="text" placeholder="Nome Completo">
+                    <label for="email">
+                        E-mail:
+                    </label>
+                    <input type="email" placeholder="nome@gmail.com">
+                    <label for="senha">
+                        Senha:
+                    </label>
+                    <input type="password" placeholder="Digite sua senha">
+                    <label for="tel">
+                        Celular:
+                    </label>
+                    <input type="number" placeholder="(99)99999-9999">
+                    <label for="date">
+                        Data:
+                    </label>
+                    <input type="date" placeholder="">
+                    <label for="nivel">Nível:</label>
+				<select id="nivel" name="nivel">
+					<option >Selecione</option>
+					<option value="iniciante">Iniciante</option>
+					<option value="basico">Básico</option>
+					<option value="intermediario">Intermediário</option>
+					<option value="avancado">Avançado</option>
+				</select>
+				<fieldset>
+					<legend>Gênero:</legend>
+					<input id="masc" type="radio" name="genero" value="masc" /> <label for="masc">Masculino</label><br/>
+					<input id="fem" type="radio" name="genero" value="fem" /> <label for="fem">Feminino</label>
+				</fieldset>
+				<fieldset>
+					<legend>Atividades:</legend>
+					<input id="musc" type="checkbox" name="atividade" value="musculacao" /> <label for="musc">Musculação</label><br/>
+					<input id="pila" type="checkbox" name="atividade" value="pilates" /> <label for="pila">Pilates</label><br/>
+					<input id="yoga" type="checkbox" name="atividade" value="yoga" /> <label for="yoga">Yoga</label><br/>
+					<input id="corr" type="checkbox" name="atividade" value="corrida" /> <label for="corr">Corrida</label><br/>
+				</fieldset>
+				<label for="mensagem">Mensagem:</label><br/>
+				<textarea id="mensagem" cols="48" rows="4">
+				</textarea>
+				<div id="botoes">
+					<input type="submit" name="bnt-agendar" value="AGENDAR" />
+					<input type="reset" name="btn-cancelar" value="CANCELAR" />
+				</div>
+                </form>
+            </section>
+        </article>
+        <footer class="footer">
+            Desenvolvido por Caio Keven- 2023
+        </footer>
+</body>
+</html>
